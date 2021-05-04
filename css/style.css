@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 
+a {
+    text-decoration: none;
+    color: #9B9B9B;
+}
 * {
     box-sizing: border-box;
 }
@@ -158,6 +162,10 @@ main h1 {
     padding: 15px 30px;
 }
 
+.contato .info p {
+    color: #00796B;
+}
+
 .contato .info iframe {
     max-width: 100%;
     width: 700px;
@@ -167,7 +175,7 @@ main h1 {
 /* ORÇAMENTO */
 
 .orcamento form label {
-    margin: 25px 10px 25px 0px;
+    margin: 25px 10px 0px 0px;
     display: inline-block;
 }
 
