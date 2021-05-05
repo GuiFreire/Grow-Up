@@ -57,6 +57,10 @@ header nav ul li a {
     text-transform: uppercase;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 1200px;
     max-width: 100%;
@@ -203,6 +207,10 @@ main h1 {
 
 .contato .info {
     padding: 15px 30px;
+}
+
+.contato .info a {
+    color: #00796B;
 }
 
 .contato .info iframe {
